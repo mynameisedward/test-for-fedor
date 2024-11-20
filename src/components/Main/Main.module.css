@@ -1,0 +1,67 @@
+.main {
+
+}
+.container {
+    max-width: 1045px;
+    margin: 0 auto;
+}
+.main_content {
+    margin-bottom: 96.5px;
+}
+.title {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    margin-top: 96.5px;
+    margin-bottom: 35px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+.buttons button {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+.button_first {
+    color: rgb(255, 255, 255);
+    background: rgb(255, 104, 91);
+}
+.button_second {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 104, 91);
+    background: rgb(255, 255, 255);
+    color: rgb(255, 104, 91);
+}
+
+.main_cards {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+}
+
+
+/*          Адаптив          */
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 355px;
+    }
+    .title {
+        margin-top: 55px;
+        font-size: 28px;
+        line-height: 39px;
+    }
+    .main_content {
+        margin-bottom: 29.5px;
+    }
+}

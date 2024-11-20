@@ -1,0 +1,20 @@
+.contacts {
+    
+
+}
+.content {
+    margin: 80px 0px;
+    padding: 104.5px 0px;
+}
+.container {
+    max-width: 1045px;
+    margin: 0 auto;
+}
+.title {
+    font-family: Montserrat;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}

@@ -1,0 +1,50 @@
+.container {
+    max-width: 1045px;
+    margin: 0 auto;
+}
+.content {
+    margin: 80px 0px;
+    padding: 61px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.title {
+    font-family: Montserrat;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+.first_button {
+    border-radius: 5px;
+    padding: 15px 40px 15px 40px;
+    background: rgb(255, 104, 91);
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;  
+    text-align: center;
+}
+.second_button {
+    color: rgb(255, 104, 91);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    padding: 15px 40px 15px 40px;
+    box-sizing: border-box;
+    /* primary-color */
+    border: 1px solid rgb(255, 104, 91);
+    border-radius: 5px;
+}

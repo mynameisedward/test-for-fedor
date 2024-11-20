@@ -1,0 +1,73 @@
+/*              Шрифты           */
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:regular,500,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap);
+
+
+.App {
+
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: rgb(37, 43, 66);
+}
+
+.container {
+    
+    max-width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 80px;
+}
+
+.header {
+    border-bottom: 1px solid black;
+}    
+
+.buttons {
+    display: flex;
+    gap: 49px;
+    align-items: center;
+}
+.button_first {
+    padding: 10px;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgb(115, 115, 115);
+}
+.button_second {
+    color: rgb(255, 104, 91);
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 6px 60px;
+    border: 2px solid rgb(255, 104, 91);
+    border-radius: 7px;
+    width: 186px;
+    height: 40px;
+}
+
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 355px;
+        align-items: center;
+    }
+    .button_second {
+        padding: 6px 20px;
+        width: 106px;
+    }
+    .buttons {
+        margin-left: 100px;
+        gap: 0px;
+        align-items: center;
+    }
+    .logo {
+        font-size: 23px;
+    }
+}
