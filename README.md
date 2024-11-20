@@ -11,5 +11,7 @@ React.js, сss-modules
 4. Запустите проект npm start
 
 Базовый пароль и логин для входа:
+
 login: user1
+
 password: password1
